@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128.5" height="53.001" viewBox="0 0 128.5 53.001">
+    <defs>
+        <filter id="tooltip" width="128.5" height="53.001" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="2"/>
+            <feFlood flood-opacity=".349"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="tooltip_images2" transform="translate(-7139.6 2100)">
+        <g filter="url(#tooltip)" transform="translate(7139.6 -2100)">
+            <path id="tooltip-2" d="M-4258.4-1261a5 5 0 0 1-5-5v-10.5l-4.5-4.5 4.5-4.5v-11.5a5 5 0 0 1 5-5h102a5 5 0 0 1 5 5v31a5 5 0 0 1-5 5z" class="cls-1" data-name="tooltip" transform="translate(4273.9 1306)"/>
+        </g>
+        <path id="tooltip-3" d="M-4258.4-1261a5 5 0 0 1-5-5v-10.5l-4.5-4.5 4.5-4.5v-11.5a5 5 0 0 1 5-5h102a5 5 0 0 1 5 5v31a5 5 0 0 1-5 5z" class="cls-1" data-name="tooltip" transform="translate(11413.5 -794)"/>
+    </g>
+</svg>

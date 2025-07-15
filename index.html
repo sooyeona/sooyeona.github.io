@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="김수연 UI 개발자 포트폴리오 - 웹 퍼블리셔 프로젝트">
+  <meta name="keywords" content="UI 개발자, 웹 퍼블리셔, 포트폴리오, 프론트엔드, 김수연">
+  <meta name="author" content="김수연">
+  <title>김수연 | UI Developer / 웹 퍼블리셔</title>
+  <link rel="shortcut icon" href="resources/images/favicon/title.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="stars">
+        <div class='stars__01'></div>
+        <div class='stars__02'></div>
+        <div class='stars__03'></div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <header class="card__header">
+                <picture>
+                    <source srcset="resources/images/intro/card_img_pc.jpg"
+                        media="all and (min-width: 770px)">
+                    <img src="resources/images/intro/card_img_mo.jpg" alt="김수연 사진"
+                        class="card__header__image">
+                </picture>
+                <h1 class="card__header__title">
+                    <span class="card__header__title__name">김수연</span>
+                    <p class="card__header__title__job">UI DEVELOPER / 웹 퍼블리셔</p>
+                </h1>
+
+            </header>
+            <div class="card__cont">
+                <section class="card__cont__item card__cont__item--about is-active" data-target="about" aria-labelledby="about-title">
+                    <h2 id="about-title">ABOUT</h2>
+                    <div class="card__cont__item--about__item">
+                        안녕하세요 : )<br>
+                        정적인 디자인을 동적인 화면으로 구현하는 것이 즐거운<br>
+                        6년차 웹 퍼블리셔 김수연입니다.
+                    </div>
+                    <div class="card__cont__item--about__item">
+                        유연하고 섬세한 사고방식으로 기획과 디자이너의 의도를 정확하게 파악하고,<br>
+                        구조화된 마크업으로 개발에 용이하도록 고민하며 작업을 합니다.
+                    </div>
+                    <section class="box-gray" aria-label="경력 및 학력">
+                        <ul class="card__cont__item__div">
+                            <li>- 김수연, 1994.07.11</li>
+                            <li>- 광운대학교 전자융합공학과 졸업</li>
+                        </ul>
+                        <p class="card__cont__item__div">- 노스스타컨설팅 솔루션사업부 UI/UX팀 재직 (2019.02 - )</p>
+                        <ul class="card__cont__item__div">
+                            <li>- 쌍용교육센터 Java 웹 개발과정 수료</li>
+                            <li>- HTML, CSS, FLEX 인터렉션 과정 수료</li>
+                        </ul>
+                        <p class="card__cont__item__div">- GTQ, 컴퓨터그래픽스운용기능사, SQL 개발자 자격 보유</p>
+                    </section>
+                </section>
+                <section class="card__cont__item" data-target="skill"  aria-labelledby="skill-title">
+                    <h2 id="skill-title">SKILL</h2>
+                    <div class="card__cont__item__skill">
+                        <div class="card__cont__item__skill--html">
+                            <div class="card__cont__item__skill__box">
+                                <h3>Html5</h3>
+                                
+                                <div class="progress-wrap">
+                                    <span class="logo-tooltip is-active">CLICK</span>
+                                    <div class="progress pink" style="display: none;">
+                                        <div class="progress-bar" style="width: 90%;"></div>
+                                        <p id="counter1" class="counter"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card__cont__item__skill__desc">
+                                문서를 구조화하여 웹 표준에 맞게 작업합니다.
+                            </p>
+                        </div>
+                        <div class="card__cont__item__skill--css">
+                            <div class="card__cont__item__skill__box">
+                                <h3>CSS/SCSS</h3>
+                                
+                                <div class="progress-wrap">
+                                    <div class="progress pink" style="display: none;">
+                                        <div class="progress-bar" style="width: 80%;"></div>
+                                        <p id="counter2" class="counter"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card__cont__item__skill__desc">
+                                미디어쿼리를 이용한 반응형 웹과, 유지보수에 용이하도록 작성합니다.
+                            </p>
+                        </div>
+                        <div class="card__cont__item__skill--js">
+                            <div class="card__cont__item__skill__box">
+                                <h3>Js</h3>
+                                
+                                <div class="progress-wrap">
+                                    <div class="progress pink" style="display: none;">
+                                        <div class="progress-bar" style="width: 70%;"></div>
+                                        <p id="counter3" class="counter"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card__cont__item__skill__desc">
+                                JavaScript, jQuery를 이용하여 간단한 이벤트를 제작 및 라이브러리를 사용할 수 있습니다.
+                            </p>
+                        </div>
+                        <div class="card__cont__item__skill--photo">
+                            <div class="card__cont__item__skill__box">
+                                <h3>Photoshop</h3>
+                                <div class="progress-wrap">
+                                    <div class="progress pink" style="display: none;">
+                                        <div class="progress-bar" style="width: 40%;"></div>
+                                        <p id="counter4" class="counter"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <p class="card__cont__item__skill__desc">
+                                간단한 보정 및 이미지 슬라이스 등의 작업이 가능합니다.
+                            </p>
+                        </div>
+                        <div class="card__cont__item__skill--coop">
+                            <div class="card__cont__item__skill__box">
+                                <h3>프로젝트 협업 및 형상 관리</h3>
+                                <p class="card__cont__item__skill__desc">
+                                    Git, SVN, Redmine, Zeplin, Figma, Jira
+                                    프로젝트 협업 및 형상관리가 가능합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+                <section class="card__cont__item card__cont__item--work" data-target="work" aria-labelledby="work-title">
+                    <h2 id="work-title">WORK</h2>
+                    <div class="card__cont__item__timeline">
+                        <div class="card__cont__item__timeline__date" data-year="2025">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2025.06 ~  <span>KB국민은행</span></div>
+                                <div class="card__cont__item__timeline__date-desc">KB 디지털콘텐트플렛폼 2차 개편(KBThink)</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2024.11 ~ 2025.06 <button data-pop="target202411" title="프로젝트 자세히 보기"><span>KB국민은행</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">KB 디지털콘텐트플렛폼 2차 개편(KBThink)</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date" data-year="2024">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2024.09 ~ 2024.11 <span>LG에너지솔루션</span></div>
+                                <div class="card__cont__item__timeline__date-desc">LG에너지솔루션 리콜사이트 AEM 개편</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date" >
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2024.01 ~ 2024.12 <span>현대자동차</span></div>
+                                <div class="card__cont__item__timeline__date-desc">현대/기아 차세대 digital experience platform 구축</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date" data-year="2023">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2023.06 ~ 2023.12 <button data-pop="target202306" title="프로젝트 자세히 보기"><span>KB DCP</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">국민은행 Digital Content Platform kbthink.com 컴포넌트 퍼블리싱</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date" >
+                            
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2023.03 ~ 2023.04 <button data-pop="target202303" title="프로젝트 자세히 보기"><span>Dr. Around</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">KT 베트남 의료 앱 Dr. Around</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date" data-year="2022">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2022.03 ~ 2022.11 <span>삼성전자판매</span></div>
+                                <div class="card__cont__item__timeline__date-desc">삼성전자판매 크로스브라우징 리뉴얼</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2022.02 <button data-pop="target202202" title="프로젝트 자세히 보기"><span>Northstar</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">노스스타컨설팅 api포탈 웹 반응형/ 관리자페이지 퍼블리싱</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2022.01 <span>Northstar</span></div>
+                                <div class="card__cont__item__timeline__date-desc">노스스타컨설팅 사내 서버 관리 시스템</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date" data-year="2021">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2021.09 ~ 2021.12 <span>삼성전자판매</span></div>
+                                <div class="card__cont__item__timeline__date-desc">모바일오피스/BQMS구매관리시스템/사은품몰 리뉴얼</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2021.08 ~ 2021.09 <button data-pop="target202108" title="프로젝트 자세히 보기"><span>현대자동차</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">현대자동차그룹 사이트 리뉴얼</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2021.04 ~ 2021.07 <span>삼성전자판매</span></div>
+                                <div class="card__cont__item__timeline__date-desc">삼성전자판매(NDPS) 구축</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2021.02 ~ 2021.03 <button data-pop="target202102" title="프로젝트 자세히 보기"><span>노스스타컨설팅</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">홈페이지 리뉴얼 반응형</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date" data-year="2020">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2021.11 ~ 2021.01 <button data-pop="target6" title="프로젝트 자세히 보기"><span>로레알</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">L`Oreal My Beauty Box Project 모바일 반응형 퍼블리싱</div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2021.10 <span>토이트론/AI동물질병정보시스템</span></div>
+                                <div class="card__cont__item__timeline__date-desc">로그인 페이지</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2020.08 <button data-pop="target1" title="프로젝트 자세히 보기"><span>삼성전기</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">WMS Next Vision System (mobile splash 화면)</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2020.06 ~ 2020.08 <button data-pop="target2" title="프로젝트 자세히 보기"><span>현대 Channel H</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">현대 차량 광고 영상 플랫폼</div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2020.05 ~ 2020.07 <button data-pop="target3" title="프로젝트 자세히 보기"><span>현대모비스</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">현대모비스 글로벌 용품 마케팅 플랫폼 구축 프로젝트 반응형 홈페이지, Admin 퍼블리싱</div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__cont__item__timeline__date">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2020.04 ~ 2020.05 <button data-pop="target4" title="프로젝트 자세히 보기"><span>로레알</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">L`Oreal My Beauty Box Project 모바일 반응형 퍼블리싱</div>
+                            </div>
+                        </div>
+                        <div class="card__cont__item__timeline__date" data-year="2019">
+                            <div class="card__cont__item__div">
+                                <div class="card__cont__item__timeline__date-title">2019.12 ~ 2020.02 <button data-pop="target5" title="프로젝트 자세히 보기"><span>광주글로벌모터스</span></button></div>
+                                <div class="card__cont__item__timeline__date-desc">광주글로벌모터스 반응형 홈페이지, Admin 퍼블리싱</div>
+                            </div>
+                        </div>
+                      </div>
+                </section>
+                <section class="card__cont__item card__cont__item--contact" data-target="contact" aria-labelledby="contact-title">
+                    <h2 id="contact-title">CONTACT</h2>
+                    <dl class="card__cont__item--contact__box">
+                        <dt>PHONE</dt>
+                        <dd><a href="tel:01075531704">010-7553-1704</a></dd>
+                        
+                        <dt>E-MAIL</dt>
+                        <dd><a href="mailto:sy_____@naver.com">sy_____@naver.com</a></dd>
+                        
+                    </dl>
+                </section>
+            </div>
+            <nav class="card__tabs" aria-label="포트폴리오 섹션 네비게이션">
+                <button data-tab="about" class="is-active">ABOUT</button>
+                <button data-tab="skill">SKILL</button>
+                <button data-tab="work">WORK</button>
+                <button data-tab="contact">CONTACT</button>
+            </nav>
+            
+
+        </div>
+
+    </div>
+
+    <!-- popup -->
+<div class="popup " data-target="target6">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/detail_loreal2.png"  alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>로레알 스템프</h3>
+                    <span>L`Oreal My Beauty Box Project</span><br>
+                    <span>2020.11-2021.01</span>
+                    <span>참여도 100%</span>
+                    <p>
+                       로레알 모바일 통합 멤버쉽 관리 어플리케이션 구축<br>
+                       스템프 화면 추가 개발
+                    </p>
+                    <a href="https://mybeautybox.co.kr/" target="_blank">mybeautybox.co.kr</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+<!-- popup -->
+<div class="popup " data-target="target1">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/samsung_main.png" alt="삼성 메인페이지" style="margin-bottom: 20px;">
+                    <img src="resources/images/splash.gif" style="width: auto;" alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>삼성전기 WMS </h3>
+                    <span>Mobile Splash</span><br>
+                    <span>2020.08</span>
+                    <span>참여도 100%</span>
+                    <p>
+                       삼성전기 모바일 어플리케이션의 Splash 화면 구축 (반응형)
+                    </p>
+                    <p>
+                        Slider와 animation을 이용한 모바일 반응형 페이지를 제작하였습니다.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+<!-- popup -->
+<div class="popup " data-target="target2">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/detail_channel.png" alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>Hyundai</h3>
+                    <span>Channel Hyundai</span><br>
+                    <span>2020.06-2020.08</span>
+                    <span>참여도 40%</span>
+                    <p>
+                       현대자동차 차량 홍보용 영상 플랫폼 구축 (반응형)
+                    </p>
+                    <p>
+                     미디어쿼리와 스크립트를 이용하여 디바이스와 가로/세로 별로 화면을 구분하였고,<br>
+                    비디오 플레이어와 차량 옵션 별 적용 화면, 화상 채팅, 마이크 음량에 따른 캔버스 조절 등의 콘텐츠를 동적으로 제작하였습니다.
+
+                    </p>
+                    <a href="https://channel.hyundai.com/" target="_blank">channel.hyundai.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+<!-- popup -->
+<div class="popup " data-target="target3">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/detail_mobis.png" alt="portfolio image" >
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>현대모비스</h3>
+                    <span>글로벌 용품 마케팅 플랫폼</span><br>
+                    <span>2020.05-2020.07</span>
+                    <span>참여도 100%</span>
+                    <p>
+                        - 현대모비스 글로벌 용품 마케팅 플랫폼 구축(반응형)<br>
+                        - 관리자 페이지 구축(적응형)
+                    </p>
+                    <a href="http://accy.gmobis.com" target="_blank">accy.gmobis.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+<!-- popup -->
+<div class="popup " data-target="target4">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/detail_loreal.png"  alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>로레알</h3>
+                    <span>L`Oreal My Beauty Box Project</span><br>
+                    <span>2020.04-2020.05</span>
+                    <span>참여도 50%</span>
+                    <p>
+                       로레알 모바일 통합 멤버쉽 관리 어플리케이션 구축
+                    </p>
+                    <a href="https://mybeautybox.co.kr/" target="_blank">mybeautybox.co.kr</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+<!-- popup -->
+<div class="popup " data-target="target5">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/work05.png"  alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>광주글로벌모터스</h3>
+                    <span>GGM</span><br>
+                    <span>2019.12-2020.02</span>
+                    <span>홈페이지 참여도 30%/관리자 참여도 100%</span>
+                    <p>
+                       - 광주글로벌모터스 신규 홈페이지 구축(반응형)
+                       - 관리자 페이지 구축(적응형)
+                    </p>
+                    <a href="http://ggmotors.co.kr/" target="_blank">ggmotors.co.kr</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+
+<!-- popup 노스스타-->
+<div class="popup " data-target="target202102">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/IT-컨설팅-노스스타컨설팅.png"  alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>노스스타컨설팅</h3>
+                    <span>Northstar Consulting</span><br>
+                    <span>2021.02-2021.03</span>
+                    <span>홈페이지 참여도 100%</span>
+                    <p>
+                       - 노스스타컨설팅 홈페이지 리뉴얼(반응형)
+                       - 관리자 페이지 구축(적응형)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+
+<!-- popup 현대자동차그룹-->
+<div class="popup " data-target="target202108">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/현대자동차그룹.png"  alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>현대자동차그룹</h3>
+                    <span>Hyundai</span><br>
+                    <span>2021.08-2021.09</span>
+                    <span>홈페이지 참여도 20%</span>
+                    <p>
+                       - 현대자동차그룹 반응형 홈페이지 구축
+                    </p>
+                    <a href="https://www.hyundai.co.kr/" target="_blank">www.hyundai.co.kr</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+
+<!-- popup 노스스타 api-->
+<div class="popup " data-target="target202202">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/api세부항목.png"  alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>노스스타컨설팅</h3>
+                    <span>Northstar Consulting</span><br>
+                    <span>2022.02</span>
+                    <span>홈페이지 참여도 100%</span>
+                    <p>
+                       - 노스스타컨설팅 api포탈 구축(반응형)<br>
+                       - 관리자 페이지 구축(적응형)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+
+<!-- popup 베트남-->
+<div class="popup " data-target="target202303">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/DA_HO_0001B_메인_의사.png"  alt="portfolio image">
+                    <img src="resources/images/DA_AD_1001B_기본정보관리.png"  alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>KT 베트남 의료 앱</h3>
+                    <span>Dr. Around</span><br>
+                    <span>2023.03 - 2023.04</span>
+                    <span>홈페이지 참여도 80%</span>
+                    <p>
+                       - 베트남 의료 등록/ 진료 화면 구축
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+
+<!-- popup kbthink2차-->
+<div class="popup " data-target="target202411">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/kbthink.com_.png"  alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>국민은행</h3>
+                    <span>Digital Content Platform</span><br>
+                    <span>2024.11-2025.06</span>
+                    <span>홈페이지 참여도 60%</span>
+                    <p>
+                       - 국민은행 Digital Content Platform kbthink.com 컴포넌트 퍼블리싱
+                    </p>
+                    <a href="https://kbthink.com/" target="_blank">kbthink.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+<!-- popup kbthink-->
+<div class="popup " data-target="target202306">
+    <div class="pop-wrap">
+        <div class="viewer">
+            <div class="body">
+                <div>
+                    <img src="resources/images/TAM-CON-001_메인.png"  alt="portfolio image">
+                    <img src="resources/images/TAM-CON-005_콘텐츠상세.png"  alt="portfolio image">
+                    <img src="resources/images/TAM-COM-047_notice list.png"  alt="portfolio image">
+                </div>
+            </div>
+            <div class="info">
+                <div class="closeCont">
+                    <button class="circle pop-close" data-animation="closeshow" data-remove="3000"></button>
+                  </div>
+                <div class="disc">
+                    <h3>국민은행</h3>
+                    <span>Digital Content Platform</span><br>
+                    <span>2023.06-2023.12</span>
+                    <span>홈페이지 참여도 60%</span>
+                    <p>
+                       - 국민은행 Digital Content Platform kbthink.com 컴포넌트 퍼블리싱
+                    </p>
+                    <a href="https://kbthink.com/" target="_blank">kbthink.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="pop-close">close</button>
+</div>
+
+
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/ui.js"></script>
+    
+</body>
+</html>
