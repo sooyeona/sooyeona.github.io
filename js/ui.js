@@ -67,10 +67,10 @@ numberCounter.prototype.counter = function() {
       clearTimeout(this.timer);
   }
 };
- new numberCounter("counter1", 90);
- new numberCounter("counter2", 80);
- new numberCounter("counter3", 70);
- new numberCounter("counter4", 40);
+ new numberCounter("counter1", 95);
+ new numberCounter("counter2", 90);
+ new numberCounter("counter3", 80);
+ new numberCounter("counter4", 50);
 
  
 })
